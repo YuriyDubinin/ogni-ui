@@ -142,12 +142,6 @@ globalThis.__RSC_MANIFEST['/not-found'] = {
         chunks: ['app-pages-internals', 'static/chunks/app-pages-internals.js'],
         async: false,
       },
-    '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/styles/style.module.css': {
-      id: '(app-pages-browser)/./src/app/styles/style.module.css',
-      name: '*',
-      chunks: ['app/page', 'static/chunks/app/page.js'],
-      async: false,
-    },
     '/Users/yuriy/Documents/Projects/ogni/ogni-ui/node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"variable":"--var-montserrat"}],"variableName":"montserrat"}':
       {
         id: '(app-pages-browser)/./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Montserrat","arguments":[{"subsets":["latin"],"variable":"--var-montserrat"}],"variableName":"montserrat"}',
@@ -167,10 +161,23 @@ globalThis.__RSC_MANIFEST['/not-found'] = {
       chunks: ['app/layout', 'static/chunks/app/layout.js'],
       async: false,
     },
+    '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/styles/style.module.css': {
+      id: '(app-pages-browser)/./src/app/styles/style.module.css',
+      name: '*',
+      chunks: ['app/page', 'static/chunks/app/page.js'],
+      async: false,
+    },
+    '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/components/InfoList/styles/style.module.css':
+      {
+        id: '(app-pages-browser)/./src/app/components/InfoList/styles/style.module.css',
+        name: '*',
+        chunks: ['app/page', 'static/chunks/app/page.js'],
+        async: false,
+      },
   },
   entryCSSFiles: {
-    '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/page': ['static/css/app/page.css'],
     '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/layout': ['static/css/app/layout.css'],
+    '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/page': ['static/css/app/page.css'],
     '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/not-found': [],
   },
 };

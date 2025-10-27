@@ -24,9 +24,8 @@ export default function Footer() {
             href={btn.href}
             onClick={e => btn.disabled && e.preventDefault()}
             className={classNames({
-              'px-4 py-2 rounded-full transition-all duration-300': true,
+              [styles.footer__btn]: true,
               [styles.footer__btn_active]: isActive,
-              'text-white/80 hover:bg-white/10': !isActive,
             })}>
             {btn.name}
           </Link>

@@ -1,5 +1,6 @@
 import type {Metadata} from 'next';
 import styles from './styles/style.module.css';
+import InfoList from '@/app/components/InfoList';
 
 export const metadata: Metadata = {
   title: 'Ogni App',
@@ -20,5 +21,9 @@ export const metadata: Metadata = {
 };
 
 export default function MainPage() {
-  return <main className={styles.main}></main>;
+  return (
+    <main className={styles.main}>
+      <InfoList items={[{}, {}, {}, {}, {}]} />
+    </main>
+  );
 }

@@ -2,10 +2,55 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/styles/style.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
 .style_main__TbGlw {
+  overflow: hidden;
+  padding: 8px;
   min-height: 100vh;
   max-height: 100vh;
   background-image: url('/images/events.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/InfoList/styles/style.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.style_infoList__6xoVT {
+  overflow: auto;
+  height: 100vh;
+  padding-bottom: 65px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.style_infoList__item__hSunm {
+  margin-bottom: 8px;
+  height: 360px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 0px 0px rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.style_infoList__item__hSunm::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8),
+    transparent,
+    rgba(255, 255, 255, 0.3)
+  );
 }
