@@ -52,6 +52,9 @@ globalThis.__RSC_MANIFEST['/page'] = {
           async: false,
         },
       },
+    '(app-pages-browser)/./src/app/layouts/Footer/index.tsx': {
+      '*': {id: '(ssr)/./src/app/layouts/Footer/index.tsx', name: '*', chunks: [], async: false},
+    },
   },
   edgeSSRModuleMapping: {},
   clientModules: {
@@ -152,6 +155,12 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: ['app/layout', 'static/chunks/app/layout.js'],
         async: false,
       },
+    '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/layouts/Footer/index.tsx': {
+      id: '(app-pages-browser)/./src/app/layouts/Footer/index.tsx',
+      name: '*',
+      chunks: ['app/layout', 'static/chunks/app/layout.js'],
+      async: false,
+    },
     '/Users/yuriy/Documents/Projects/ogni/ogni-ui/src/app/styles/globals.css': {
       id: '(app-pages-browser)/./src/app/styles/globals.css',
       name: '*',

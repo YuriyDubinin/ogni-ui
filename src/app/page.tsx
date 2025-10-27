@@ -1,5 +1,4 @@
 import type {Metadata} from 'next';
-
 import styles from './styles/style.module.css';
 
 export const metadata: Metadata = {
@@ -20,6 +19,6 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Main() {
-  return <main className={styles.main}>Test</main>;
+export default function MainPage() {
+  return <main className={styles.main}></main>;
 }
