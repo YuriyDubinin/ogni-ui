@@ -1,0 +1,96 @@
+body .lightTheme {
+    --app-background: var(--grey-50);
+    --app-background-section: var(--white);
+    --app-background-box: var(--white);
+    --app-background-box-hover: var(--grey-50);
+    --app-background-header: var(--grey-75);
+    --app-color: var(--grey-300);
+    --app-color-disabled: var(--grey-100);
+    --app-color-label: var(--grey-400);
+    --app-border: var(--grey-75);
+    --app-border-active: var(--grey-75);
+    --app-icon: var(--grey-250);
+    --app-selection: var(--blue);
+    --app-scrollbar-thumb: var(--grey-50);
+
+    --header-account-bar-background: var(--grey-50);
+    --progress-bar-background: var(--grey-75);
+
+    --tab-background: var(--grey-100);
+    --tab-active-background: var(--app-background-section);
+    --tab-active-color: var(--black-700);
+    --tab-disabled-color: var(--app-color-disabled);
+    --tab-active-border: var(--tab-active-color);
+
+    --checkbox-background: var(--grey-300);
+    --checkbox-active-background: var(--white);
+    --checkbox-indicator-background: var(--black-900);
+
+    --input-background: var(--grey-75);
+    --input-readonly-background: var(--black-900);
+    --input-step-background: var(--black);
+
+    --button-color: var(--white);
+    --button-disabled-background: var(--black);
+
+    --tooltip-background: var(--grey-250);
+    --tooltip-color: var(--white);
+
+    --modal-background: var(--white);
+    --modal-header-background: var(--black-600);
+
+    --notify-box-info-background: var(--info);
+    --notify-box-error-background: var(--error);
+    --notify-box-success-background: var(--success);
+
+    --editor-default-color: var(--black);
+}
+
+body .darkTheme {
+    --app-background: var(--black);
+    --app-background-section: var(--black-900);
+    --app-background-box: var(--black-800);
+    --app-background-header: var(--black-700);
+    --app-background-contrast: var(--black-500);
+    --app-background-box-hover: var(--black-600);
+    --app-color: var(--white);
+    --app-color-disabled: var(--grey-200);
+    --app-color-label: var(--grey-400);
+    --app-border: var(--grey);
+    --app-border-active: var(--grey-200);
+    --app-icon: var(--grey-100);
+    --app-selection: var(--blue);
+    --app-scrollbar-thumb: var(--black-600);
+
+    --header-account-bar-background: var(--black-800);
+    --progress-bar-background: var(--black);
+
+    --tab-background: var(--black-600);
+    --tab-active-background: var(--app-background-section);
+    --tab-active-color: var(--white);
+    --tab-disabled-color: var(--app-color-disabled);
+    --tab-active-border: var(--tab-active-color);
+
+    --checkbox-background: var(--grey-300);
+    --checkbox-active-background: var(--white);
+    --checkbox-indicator-background: var(--black-900);
+
+    --input-background: var(--black-700);
+    --input-readonly-background: var(--black-900);
+    --input-step-background: var(--black);
+
+    --button-color: var(--white);
+    --button-disabled-background: var(--black);
+
+    --tooltip-background: var(--grey-300);
+    --tooltip-color: var(--app-color);
+
+    --modal-background: var(--black-800);
+    --modal-header-background: var(--black-900);
+
+    --notify-box-info-background: var(--info);
+    --notify-box-error-background: var(--error);
+    --notify-box-success-background: var(--success);
+
+    --editor-default-color: var(--white);
+}

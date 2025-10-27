@@ -1,0 +1,41 @@
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+
+    --white: #fff;
+    --green: rgb(43, 173, 117);
+    --red: #f84c58;
+    --blue: #3ea7ed;
+    --black: #101216;
+    --orange: #fa9e26;
+    --grey: #38444a;
+    --prime: #3b6ffd;
+
+    --black-500: #36454d;
+    --black-600: #2d3940;
+    --black-700: #263137;
+    --black-800: #1d242d;
+    --black-900: #141d26;
+
+    --grey-50: #dde2e5;
+    --grey-75: #e5e9ec;
+    --grey-100: #698390;
+    --grey-200: #788388;
+    --grey-250: #48575e;
+    --grey-300: #434d51;
+    --grey-400: #ffffff0f;
+
+    --success: var(--green);
+    --error: var(--red);
+    --attention: var(--orange);
+    --info: var(--blue);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
