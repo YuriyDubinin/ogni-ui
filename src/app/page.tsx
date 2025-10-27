@@ -1,5 +1,4 @@
 import type {Metadata} from 'next';
-import {cookies} from 'next/headers';
 
 import styles from './styles/style.module.css';
 
@@ -22,6 +21,5 @@ export const metadata: Metadata = {
 };
 
 export default function Main() {
-  console.log('cookie: ', cookies().getAll());
   return <main className={styles.main}>Test</main>;
 }
